@@ -106,9 +106,9 @@ img {
   align-items: center;
 }
 
-.navbar__logo img {
-  width: 112px;
-  height: 36px;
+.navbar__logo h2 {
+  font-size: 1rem;
+  max-width: 50px;
 }
 
 .navbar__menu-list {
@@ -139,6 +139,7 @@ img {
 .navbar__mobile-menu {
   display: none;
   cursor: pointer;
+  color: var(--primary-color);
 }
 
 .navbar__mobile-menu-items {
@@ -168,3 +169,20 @@ img {
 }
 
 /* End: Navbar */
+
+/* Start: Media Queries */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar__menu {
+    display: none;
+  }
+  .navbar__mobile-menu {
+    display: block;
+  }
+  /* End: Navbar */
+}
+
+/* End: Media Queries */
