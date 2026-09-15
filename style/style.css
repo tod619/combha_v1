@@ -21,7 +21,7 @@ html,
 body {
   font-family: 'Montserrat', sans-serif;
   background: var(--secondary-color);
-  color: #fff;
+  color: var(--primary-black);
   line-height: 1.6;
   scroll-behavior: smooth;
 }
