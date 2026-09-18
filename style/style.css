@@ -170,6 +170,13 @@ img {
 
 /* End: Navbar */
 
+/* Start: Hero Section */
+.hero {
+  background: url('../images/Landing.jpg') center center/cover no-repeat;
+  padding: 1.5rem 2rem 8rem;
+}
+/* End: Hero Section */
+
 /* Start: Media Queries */
 @media (max-width: 992px) {
 }
