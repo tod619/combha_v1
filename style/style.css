@@ -74,6 +74,7 @@ img {
   font-weight: 600;
   border-radius: 50px;
   transition: background-color 0.3s ease;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -174,17 +175,17 @@ img {
 .hero {
   background:
     linear-gradient(
-      155deg,
+      145deg,
       rgba(255, 255, 255, 1) 0%,
-      rgba(255, 255, 255, 1) 44%,
-      rgba(137, 237, 83, 0) 55%
+      rgba(255, 255, 255, 1) 50%,
+      rgba(137, 237, 83, 0) 57%
     ),
     url('../images/Landing.jpg') center center/cover no-repeat;
   padding: 1.5rem 2rem 1.5rem;
 }
 
 .hero__container {
-  padding: 6rem 1.5rem 3rem;
+  padding: 6rem 0 3rem;
 }
 
 .hero__content {
@@ -192,7 +193,7 @@ img {
 }
 
 .hero__heading {
-  width: 80%;
+  width: 75%;
   font-size: 2.5rem;
   line-height: 1.3;
   margin-bottom: 1.5rem;
@@ -202,9 +203,22 @@ img {
 
 .hero__description {
   font-size: 1.1rem;
-  margin-bottom: 1rem;
-  width: 80%;
+  width: 75%;
 }
+
+.hero__button {
+  margin: 1rem 0 1rem;
+}
+
+.hero__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin-bottom: 1rem;
+}
+
 /* End: Hero Section */
 
 /* Start: Media Queries */
