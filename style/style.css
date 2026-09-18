@@ -172,8 +172,19 @@ img {
 
 /* Start: Hero Section */
 .hero {
-  background: url('../images/Landing.jpg') center center/cover no-repeat;
+  background:
+    linear-gradient(
+      140deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 43%,
+      rgba(137, 237, 83, 0) 53%
+    ),
+    url('../images/Landing.jpg') center center/cover no-repeat;
   padding: 1.5rem 2rem 8rem;
+}
+
+.hero__container {
+  padding: 6rem 1.5rem 3rem;
 }
 /* End: Hero Section */
 
